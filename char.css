@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+} 
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+
+    gap: 100px;
+}
+
+.chart{
+    padding: 2rem;
+    border: 1px solid #eceae8;
+    border-radius: 1rem;
+    background: white;
+    box-shadow: 0 0 16px rgba(121, 119, 119, 0.8);
+}
+
+.chart:hover{
+
+    width: 304;
+    height: 305;
+    transition: 2s;
+
+}
+
+@media(max-width:431px){
+    .container{
+        grid-template-columns: auto;
+
+    }
+}
+
+@media(max-width:768px){
+    .container{
+        grid-template-columns: auto auto;
+
+    }
+}

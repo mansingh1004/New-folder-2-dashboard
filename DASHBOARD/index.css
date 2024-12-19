@@ -1,0 +1,420 @@
+
+html {
+    overflow-x: hidden;
+  }
+  body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(233, 230, 230);
+  }
+  #All {
+    display: flex;
+    justify-content: left;
+  }
+  #All {
+    overflow-x: hidden;
+  }
+  /* .left {
+    overflow-y: hidden;
+    height: 100vh;
+  } */
+  #All .left {
+    overflow-x: hidden;
+  }
+  #All .main {
+    overflow-x: hidden;
+  }
+  #All .left .top {
+    width: 300px;
+    height: 100px;
+    background-color: rgb(41, 41, 99);
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  #All .left .top #img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  #All .left .top .name {
+    margin-top: 30px;
+  }
+  #All .left .top .name .name1 {
+    color: white;
+  }
+  #All .left .top .name .name2 {
+    color: rgb(65, 98, 65);
+  }
+  #All .left .bottom {
+    width: 300px;
+    height: 86vh;
+    background-color: rgb(8, 8, 38);
+  }
+  #All .left .bottom .bottom1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 18px;
+    padding-left: 30px;
+  }
+  #All .left .bottom .bottom2 {
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+  #All .left .bottom .bottom2 a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+  #All .left .bottom .bottom2 a div {
+    margin: 10px;
+  }
+  #All .main .bar {
+    height: 50px;
+    width: 1300px;
+    background-color: rgb(8, 8, 38);
+    display: flex;
+    justify-content: left;
+  }
+  #All .main .bar .bar1 {
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: orange;
+  }
+  #All .main .bar .bar1 div {
+    padding-left: 15px;
+    padding-top: 15px;
+  }
+  #All .main .bar .bar2 {
+    color: white;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 24px;
+  }
+  #All .main .bar .bar3 {
+    width: 300px;
+    height: 50px;
+    background-color: orange;
+    margin-left: 900px;
+    display: flex;
+  }
+  #All .main .bar .bar3 div #img1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding-left: 20px;
+  }
+  #All .main .bar .bar3 div {
+    padding-top: 10px;
+  }
+  #All .main .dashboard {
+    height: 50px;
+    width: 1300px;
+    background-color: white;
+  }
+  #All .main .dashboard .innerdashboard {
+    padding-top: 15px;
+    padding-left: 60px;
+    font-size: 18px;
+  }
+  #All .main .dmain {
+    height: 86vh;
+    width: 100%;
+    background-color: rgb(233, 230, 230);
+  }
+  #All .main .dmain .dmain1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+  @media (max-width: 1025px) {
+    #All .main .dmain .dmain1 {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+  }
+  @media (max-width: 426px) {
+    #All .main .dmain .dmain1 {
+      display: grid;
+      grid-template-columns: auto;
+    }
+  }
+  #All .main .dmain .dmain1 .dmain11 {
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+    background-color: white;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+  }
+  @media (max-width: 1025px) {
+    #All .main .dmain .dmain1 .dmain11 {
+      margin: 60px;
+    }
+  }
+  @media (max-width: 321px) {
+    #All .main .dmain .dmain1 .dmain11 {
+      margin: 30px;
+    }
+  }
+  #All .main .dmain .dmain1 .dmain11 .dmain111 {
+    padding-top: 50px;
+    font-size: 44px;
+    color: orange;
+  }
+  #All .main .dmain .dmain1 .dmain11 .dmain112 {
+    padding-top: 50px;
+    font-size: 44px;
+    color: rgb(32, 79, 123);
+  }
+  #All .main .dmain .dmain1 .dmain11 .dmain113 {
+    padding-top: 50px;
+    font-size: 44px;
+    color: rgb(19, 130, 89);
+  }
+  #All .main .dmain .dmain1 .dmain11 .dmain114 {
+    padding-top: 50px;
+    font-size: 44px;
+    color: red;
+  }
+  #All .main .dmain .dmain2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+  @media (max-width: 1025px) {
+    #All .main .dmain .dmain2 {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+  }
+  @media (max-width: 426px) {
+    #All .main .dmain .dmain2 {
+      display: grid;
+      grid-template-columns: auto;
+    }
+  }
+  #All .main .dmain .dmain2 .dmain21 {
+    width: 200px;
+    height: 150px;
+    margin: 40px;
+    background-color: white;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    box-shadow: 0px 0px 10px black;
+  }
+  @media (max-width: 1025px) {
+    #All .main .dmain .dmain2 .dmain21 {
+      margin: 60px;
+    }
+  }
+  @media (max-width: 321px) {
+    #All .main .dmain .dmain2 .dmain21 {
+      margin: 30px;
+    }
+  }
+  #All .main .dmain .dmain2 .dmain21 .dmain211 {
+    height: 75px;
+    width: 200px;
+    background-color: rgb(41, 41, 99);
+  }
+  #All .main .dmain .dmain2 .dmain21 .dmain212 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #All .main .dmain .dmain2 .dmain21 .dmain221 {
+    height: 75px;
+    width: 200px;
+    background-color: rgb(21, 92, 143);
+  }
+  #All .main .dmain .dmain2 .dmain21 .dmain231 {
+    height: 75px;
+    width: 200px;
+    background-color: rgb(7, 48, 78);
+  }
+  #All .main .dmain .dmain2 .dmain21 .dmain241 {
+    height: 75px;
+    width: 200px;
+    background-color: red;
+  }
+  #All .pleft {
+    display: none;
+  }
+  @media (max-width: 1025px) {
+    #All .left {
+      display: none;
+    }
+    #All .pleft {
+      display: block;
+      background-color: rgb(41, 41, 99);
+    }
+  }
+  #All .pleft .gen {
+    padding-top: 30px;
+    color: white;
+  }
+  #All .pleft .img img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 10px;
+  }
+  #All .pleft div a {
+    text-decoration: none;
+    font-size: 24px;
+  }
+  #All .pleft .a {
+    margin-left: 10px;
+    margin-bottom: 25px;
+  }
+  .bell {
+    position: absolute;
+    top: 15px;
+    left: 1200px;
+    color: white;
+    font-size: 18px;
+  }
+  .envelope {
+    position: absolute;
+    top: 15px;
+    left: 1260px;
+    color: white;
+    font-size: 18px;
+  }
+  .question {
+    position: absolute;
+    top: 15px;
+    left: 1230px;
+    color: white;
+    font-size: 18px;
+  }
+  @media (max-width: 1025px) {
+    .bell {
+      display: none;
+    }
+    .envelope {
+      display: none;
+    }
+    .question {
+      display: none;
+    }
+  }
+  
+
+
+
+  /* ===========================insert html css  form=================================*/
+
+
+  .form-container {
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+
+  }
+  #eno{
+    width: 20vw;
+    height: 3vw;
+    margin-left: 1.9vw;
+   
+
+  }
+
+  #nm{
+    width: 20vw;
+    height: 3vw;
+    margin-left: 3.9vw;
+
+  }
+
+  #city{
+    width: 20vw;
+    height: 3vw;
+    margin-left: 4.9vw;
+
+  }
+
+  #salary{
+    width: 20vw;
+    height: 3vw;
+    margin-left: 4vw;
+
+  }
+
+  #btn1{
+    width: 10vw;
+    height: 2vw;
+    margin-left: 10vw;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* =======================chart show the data in graph representation */
+
+  /* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body{
+    background:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+} 
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+
+    gap: 100px;
+}
+
+.chart{
+    padding: 2rem;
+    border: 1px solid #eceae8;
+    border-radius: 1rem;
+    background: white;
+    box-shadow: 0 0 16px rgba(121, 119, 119, 0.8);
+}
+
+.chart:hover{
+
+    width: 304;
+    height: 305;
+    transition: 2s;
+
+}
+
+@media(max-width:431px){
+    .container{
+        grid-template-columns: auto;
+
+    }
+}
+
+@media(max-width:768px){
+    .container{
+        grid-template-columns: auto auto;
+
+    }
+}

@@ -1,0 +1,74 @@
+{
+  "employees": [
+    {
+      "employeeno": 2,
+      "name": "Harry Potter",
+      "city": "hogwarts",
+      "salary": 200000,
+      "id": "3158"
+    },
+    {
+      "employeeno": 1,
+      "name": "peter parker",
+      "city": "berlin",
+      "salary": 300000,
+      "id": "b3d0"
+    },
+    {
+      "id": "4ccd",
+      "employeeno": "67",
+      "name": "man",
+      "city": "bhopal",
+      "salary": "8098797"
+    },
+    {
+      "id": "95c9",
+      "employeeno": "2",
+      "name": "man",
+      "city": "karod",
+      "salary": "8098797"
+    },
+    {
+      "employeeno": "1",
+      "name": "man",
+      "city": "bhopal",
+      "salary": "10000",
+      "id": "8897"
+    },
+    {
+      "id": "b93b",
+      "employeeno": "12",
+      "name": "dseas",
+      "city": "sdef",
+      "salary": "1234556"
+    },
+    {
+      "id": "e275",
+      "employeeno": "2",
+      "name": "dseas",
+      "city": "karod",
+      "salary": "1234556"
+    },
+    {
+      "id": "a0b4",
+      "employeeno": "2",
+      "name": "dseas",
+      "city": "sdef",
+      "salary": "10000"
+    },
+    {
+      "id": "4294",
+      "employeeno": "2",
+      "name": "dseas",
+      "city": "sdef",
+      "salary": "10000"
+    },
+    {
+      "employeeno": "",
+      "name": "",
+      "city": "",
+      "salary": "",
+      "id": "2356"
+    }
+  ]
+}
